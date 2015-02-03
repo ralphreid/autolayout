@@ -17,28 +17,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9n3-k4-WM9">
-                                <rect key="frame" x="429" y="42" width="149" height="104"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9n3-k4-WM9">
+                                <rect key="frame" x="430" y="42" width="148" height="104"/>
                                 <color key="backgroundColor" red="1" green="0.3983283648" blue="0.51303648260000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TxN-DL-6jN">
-                                <rect key="frame" x="25" y="42" width="149" height="104"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TxN-DL-6jN">
+                                <rect key="frame" x="25" y="42" width="148" height="104"/>
                                 <color key="backgroundColor" red="1" green="0.3983283648" blue="0.51303648260000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DAW-ek-U1l">
-                                <rect key="frame" x="330" y="207" width="240" height="104"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAW-ek-U1l">
+                                <rect key="frame" x="325" y="207" width="245" height="104"/>
                                 <color key="backgroundColor" red="0.70335629111842102" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4UL-pc-fMK">
-                                <rect key="frame" x="25" y="207" width="240" height="104"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4UL-pc-fMK">
+                                <rect key="frame" x="25" y="207" width="246" height="104"/>
                                 <color key="backgroundColor" red="0.70335629109999998" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-0P-jP8">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mAr-0P-jP8">
                                 <rect key="frame" x="25" y="442" width="545" height="104"/>
                                 <color key="backgroundColor" red="0.70335629111842102" green="0.75390625" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D3E-BD-zB1">
-                                <rect key="frame" x="226" y="42" width="149" height="104"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D3E-BD-zB1">
+                                <rect key="frame" x="227" y="42" width="149" height="104"/>
                                 <color key="backgroundColor" red="1" green="0.3983283648" blue="0.51303648260000001" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
@@ -49,13 +49,26 @@
                             <constraint firstItem="4UL-pc-fMK" firstAttribute="centerY" secondItem="DAW-ek-U1l" secondAttribute="centerY" id="ABE-el-zZ7"/>
                             <constraint firstItem="D3E-BD-zB1" firstAttribute="height" secondItem="4UL-pc-fMK" secondAttribute="height" id="B2l-Lo-she"/>
                             <constraint firstItem="TxN-DL-6jN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="CYi-bW-J76"/>
+                            <constraint firstItem="D3E-BD-zB1" firstAttribute="leading" secondItem="TxN-DL-6jN" secondAttribute="trailing" constant="54" id="GPQ-sV-bLA"/>
+                            <constraint firstItem="9n3-k4-WM9" firstAttribute="width" secondItem="D3E-BD-zB1" secondAttribute="width" id="LF2-Y4-9Z1"/>
                             <constraint firstItem="D3E-BD-zB1" firstAttribute="height" secondItem="TxN-DL-6jN" secondAttribute="height" id="LG8-9V-CvF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DAW-ek-U1l" secondAttribute="trailing" constant="14" id="Lk0-1F-XGu"/>
+                            <constraint firstItem="mAr-0P-jP8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="NGU-oq-0cL"/>
+                            <constraint firstItem="4UL-pc-fMK" firstAttribute="width" secondItem="DAW-ek-U1l" secondAttribute="width" id="Ohi-ru-P5d"/>
+                            <constraint firstItem="9n3-k4-WM9" firstAttribute="width" secondItem="TxN-DL-6jN" secondAttribute="width" id="RYb-la-iTj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mAr-0P-jP8" secondAttribute="trailing" constant="14" id="SZo-dt-OrN"/>
+                            <constraint firstItem="4UL-pc-fMK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="U2f-48-bzO"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mAr-0P-jP8" secondAttribute="bottom" constant="54" id="UYv-Ml-xOu"/>
+                            <constraint firstItem="9n3-k4-WM9" firstAttribute="leading" secondItem="D3E-BD-zB1" secondAttribute="trailing" constant="54" id="VCS-dZ-sh5"/>
                             <constraint firstItem="D3E-BD-zB1" firstAttribute="height" secondItem="DAW-ek-U1l" secondAttribute="height" id="b8j-db-JNs"/>
                             <constraint firstItem="D3E-BD-zB1" firstAttribute="height" secondItem="9n3-k4-WM9" secondAttribute="height" id="eUe-rK-4ZQ"/>
+                            <constraint firstItem="DAW-ek-U1l" firstAttribute="leading" secondItem="4UL-pc-fMK" secondAttribute="trailing" constant="54" id="f17-2U-igi"/>
                             <constraint firstItem="D3E-BD-zB1" firstAttribute="height" secondItem="mAr-0P-jP8" secondAttribute="height" id="fUq-4x-1bQ"/>
                             <constraint firstItem="4UL-pc-fMK" firstAttribute="top" secondItem="D3E-BD-zB1" secondAttribute="bottom" constant="61" id="fgU-RL-YBa"/>
+                            <constraint firstItem="9n3-k4-WM9" firstAttribute="centerY" secondItem="D3E-BD-zB1" secondAttribute="centerY" id="jhS-SA-gci"/>
                             <constraint firstItem="TxN-DL-6jN" firstAttribute="centerY" secondItem="D3E-BD-zB1" secondAttribute="centerY" id="m3G-WC-FuR"/>
                             <constraint firstItem="mAr-0P-jP8" firstAttribute="top" secondItem="4UL-pc-fMK" secondAttribute="bottom" constant="131" id="uAH-2p-Xmm"/>
+                            <constraint firstItem="D3E-BD-zB1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="zgh-Uc-u9J"/>
                         </constraints>
                     </view>
                 </viewController>
